@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+	<title>Pagina Inicial</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="atividade.css">
+	<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.cyan-pink.min.css" />
+    <!-- Material Design Lite -->
+    <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <!-- Material Design icon font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+ <!-- Simple header with fixed tabs. -->
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header mdl-layout--fixed-tabs">
+      <header class="mdl-layout__header">
+        <div class="mdl-layout__header-row">
+  <!-- Title -->
+      <span class="mdl-layout-title">Title</span>
+        </div>
+<!-- The drawer is always open in large screens. The header is always shown,
+ even in small screens. -->
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer
+mdl-layout--fixed-header">
+  <header class="mdl-layout__header mdl-layout__header--waterfall">
+<div class="mdl-layout__header-row">
+<div class="mdl-layout-spacer"></div>
+<div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable
+mdl-textfield--floating-label mdl-textfield--align-right">
+<label class="mdl-button mdl-js-button mdl-button--icon"
+for="fixed-header-drawer-exp">
+<i class="material-icons">search</i>
+</label>
+<div class="mdl-textfield__expandable-holder">
+<input class="mdl-textfield__input" type="text" name="sample"
+id="fixed-header-drawer-exp">
+</div>
+</div>
+</div>
+ 
+<main class="mdl-layout__content">
+<div class="page-content"><!-- Your content goes here --></div>
+</main>
+</div>
+<!-- Tabs -->
+<div class="mdl-layout__tab-bar mdl-js-ripple-effect">
+<a href="#fixed-tab-1" class="mdl-layout__tab is-active navicons"><img src="query_builder-24px.svg"></a>
+<a href="#fixed-tab-2" class="mdl-layout__tab navicons"><img class="navicons" src="bookmarks-24px.svg"></a>
+<a href="#fixed-tab-3" class="mdl-layout__tab navicons"><img src="public-24px.svg"></a>
+<a href="#fixed-tab-3" class="mdl-layout__tab navicons"><img src="person-24px.svg"></a>
+</div>
+</header>
+<div class="mdl-layout__drawer">
+<span class="mdl-layout-title">Title</span>
+</div>
+<main class="mdl-layout__content">
+<section class="mdl-layout__tab-panel is-active" id="fixed-tab-1">
+<div class="page-content"><!-- Your content goes here --></div>
+</section>
+<section class="mdl-layout__tab-panel" id="fixed-tab-2">
+<div class="page-content"><!-- Your content goes here --></div>
+</section>
+<section class="mdl-layout__tab-panel" id="fixed-tab-3">
+<div class="page-content"><!-- Your content goes here --></div>
+</section>
+</main>
+    </div>
+    <!-- img principal-->
+  <div id="lol">
+    <img src="candies.jpg" id="mainimg">
+  </div>
+
+  <!--chips-->
+  <div id="chipsdiv">
+    <span class="mdl-chip">
+      <span class="mdl-chip__text">Mais comprados</span>
+    </span>
+    <span class="mdl-chip">
+      <span class="mdl-chip__text">Zero açúcar</span>
+    </span>
+    <span class="mdl-chip">
+      <span class="mdl-chip__text">Importados</span>
+    </span>
+  </div>
+
+  <div>
+    <h1 style="font-size: 2rem; margin-left: 1rem;">Produtos</h1>
+  </div>
+
+  <!--cards-->
+  <div id="divcards">
+    <!-- Square card -->
+    <style>
+      .demo-card-square.mdl-card {
+      width: 24.5rem;
+      height: 25rem;
+    }
+      .demo-card-square > .mdl-card__title {
+      color: #fff;
+      background:
+      url('nerds.jpg') center no-repeat #fff;
+    }
+    </style>
+
+  <div class="demo-card-square mdl-card mdl-shadow--2dp">
+    <div class="mdl-card__title mdl-card--expand">
+    <h2 class="mdl-card__title-text" style="color:#fff; "><b>Bala Nerds</b></h2>
+  </div>
+  <div class="mdl-card__supporting-text">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Aenan convallis.
+  </div>
+  <div class="mdl-card__actions mdl-card--border">
+    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+      View Updates
+    </a>
+  </div>
+</div>
+
+
+  </div>
+
+  <div>
+    <h1 style="font-size: 2rem; margin-left: 1rem;">Feedbacks de clientes</h1>
+  </div>
+
+</body>
+</html>
